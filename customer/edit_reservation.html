@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta charset="utf-8">
+    <title>Restaurant Reservation System-Arindam Batabyal</title>
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <script src="respond.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="title">
+        <h1>The Dhaba</h1>
+    </div>
+
+</header>
+
+<section>
+    <div class="navtabs">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../customer/customer_login.html">Customer</a></li>
+                <li><a href="../owner/owner_login.html">Owner</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div class="cancel">
+        <h5>Your Reservation Status is :</h5>
+
+        <h5>To Cancel Your Reservation, Please Click Cancel Reservation</h5>
+
+        <a href="#"><button type="button"> Cancel Reservation</button> </a>
+    </div>
+
+    <div class="edit">
+        <h5>Please Refill the following information to Edit Your Reservation </h5>
+
+        <div>
+            Date & Time :
+            <input type="datetime-local"  class="cred" placeholder="mm/dd/yyyy, --:--:--" >
+        </div>
+
+        <div>
+            Party Size :
+            <input type="number"  class="cred" placeholder="No. of Guests" min="1" max="20" >
+        </div>
+
+        <div>
+            <a href="#" ><button type="submit"> Change Reservation </button> </a>
+        </div>
+
+    </div>
+    </section>
+</body>
+<footer></footer>
+</html>
