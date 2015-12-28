@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta charset="utf-8">
+    <title>Restaurant Reservation System-Arindam Batabyal</title>
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <script src="respond.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>The Dhaba</h1>
+        </div>
+
+    </header>
+    <section>
+        <div>
+            <div class="ownertabs">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="seating.html">Seating</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="settings.html">Settings</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h3>Welcome</h3>
+                <h4>Create a new reservation or edit an existing one</h4>
+             </div>
+
+            <div class="owner">
+                <h4>Create a New Reservation</h4>
+                    <form action="#" autocomplete="on">
+                        <div>
+                            Full Name :
+                            <input type="text" class="cred" placeholder="eg. Elon Musk" required >
+                        </div>
+
+                        <div>
+                            Email :
+                            <input type="email" class="cred" placeholder="john@gmail.com" required>
+                        </div>
+
+                        <div>
+                            Phone :
+                            <input type="tel" class="cred" placeholder="(970)-456-9876" required>
+                        </div>
+
+                        <div>
+                            Date & Time :
+                            <input type="datetime-local"  class="cred" placeholder="mm/dd/yyyy, --:--:--" required>
+                        </div>
+
+                        <div>
+                            Party Size :
+                            <input type="number"  class="cred" placeholder="No. of Guests" min="1" max="20" required>
+                        </div>
+
+                        <div>
+                            Special Request :
+                            <input type="text"  class="cred" placeholder="birthday, anniversary, glutten free etc." >
+                        </div>
+
+                        <div>
+                            <button type="submit"> Reserve </button>
+
+                        </div>
+                    </form>
+        </div>
+
+        <div>
+            <h4>Edit an Existing Reservation</h4>
+            <form action="#" autocomplete="on">
+                <div>
+                    Enter Customer's Confirmation Code:<input type="password" class="cred" required>
+                </div>
+
+                <div>
+                    <button type="submit"> Submit</button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+</body>
+<footer></footer>
+</html>
